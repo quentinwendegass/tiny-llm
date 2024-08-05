@@ -1,0 +1,16 @@
+vocab_size = 30000  # size of vocabulary
+model_dim = 512  # embedding dimension
+num_head = 8  # number of heads in multi-head attention
+num_hidden = 512 * 4  # dimension of the feedforward network
+num_blocks = 8  # number of transformer blocks
+context_len = 256  # maximum context length
+dropout = 0
+stride = 128
+batch_size = 64
+warmup = 2000  # number of warmup steps
+gradient_accumulation_steps = 8
+learning_rate = 6e-4
+betas = (0.9, 0.98)
+eps = 1e-8
+validation_freq = 1000  # validation and checkpoint
+data_in_memory = True  # store data in memory or load for each batch

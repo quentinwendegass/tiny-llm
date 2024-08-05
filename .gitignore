@@ -1,0 +1,12 @@
+**/__pycache__
+.idea
+*.h5
+wandb
+runs
+data
+checkpoints
+build
+.venv
+**/.DS_Store
+**/*.egg-info
+**/checkpoint.pt
