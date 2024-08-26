@@ -10,7 +10,7 @@ The `tiny-llm` project is designed to provide a hands-on learning experience wit
 
 - **Model Architecture:** Based on GPT-2, utilizing transformer decoder blocks. Implements Pre-Layer Normalization (Pre-LN) for improved stability over Post-Layer Normalization.
 - **Training:** Easy setup and training of small transformer models.
-- **Evaluation:** Evaluate model performance with provided scripts.
+- **Test:** Test model performance with provided script.
 - **Cloud Training:** Supports training on cloud GPUs via Runpod.io.
 
 ## Getting Started
@@ -72,12 +72,12 @@ python src/training.py <model-name> --checkpoint <path>
 
 Refer to the help message (`--help`) for additional parameters.
 
-### Evaluation
+### Testing
 
-To evaluate the model's performance, run:
+To test the model's performance, run:
 
 ```bash
-python src/evaluation.py <checkpoint-path>
+python src/generate.py <checkpoint-path>
 ```
 
 ### Example
