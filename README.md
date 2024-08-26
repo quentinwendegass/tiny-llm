@@ -80,6 +80,16 @@ To test the model's performance, run:
 python src/generate.py <checkpoint-path>
 ```
 
+### API
+
+The `api.py` script is an example on how this could be exposed as an API endpoint.
+
+To start the API, run:
+
+```bash
+fastapi dev src/api.py
+```
+
 ### Example
 
 In this [run](https://api.wandb.ai/links/quentin-wendegass-bitmovin/2z44b4ck) the model was trained on the tiny-stories dataset for only one and a half hours on a Nvidia A40 GPU.
