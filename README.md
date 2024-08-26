@@ -4,6 +4,8 @@
 
 The `tiny-llm` project is designed to provide a hands-on learning experience with Large Language Models (LLMs) and their architecture, specifically focusing on the transformer model as introduced in the paper “Attention Is All You Need”. This project primarily utilizes the transformer decoder blocks, following the GPT-2 architecture.
 
+To test a very small model that was trained on the `tiny-stories` dataset head over to the [web application](https://tinyllm.wendegass.com). 
+
 **Note:** The code in this project is intended for educational purposes, is not optimized and does not adhere to the latest standards in LLMs.
 
 ## Features
